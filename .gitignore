@@ -1,0 +1,28 @@
+# Ignore raw data files
+data/raw/
+src/data/
+
+# Ignore large processed datasets
+data/processed/*.csv
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore zipped or large archives
+*.zip
+*.rar
+*.gz
+
+# Ignore virtual environment
+venv/
+.env/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore logs
+*.log
